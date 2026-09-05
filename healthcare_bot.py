@@ -218,7 +218,6 @@ class HealthApp(tk.Tk):
         ttk.Button(self.frame, text="Get Guidance", command=submit).pack(pady=20)
         ttk.Button(self.frame, text="Back", command=self.show_details).pack()
 
-    # ---------------- Result (receipt style, matches reference screenshot) ----------------
     def show_result(self):
         self.clear()
 
